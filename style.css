@@ -1,0 +1,59 @@
+body{
+    margin: auto;
+}
+section{
+    height: 700px;
+}
+nav{
+    height: 50px;
+    background-color: aliceblue;
+    line-height: 30px;
+}
+nav > ul > li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+}
+nav li{
+   list-style-type: none;;
+}
+nav a{
+    text-decoration: none;
+    
+}
+nav li:hover{
+    background-color: darkgray;
+}
+nav > ul > li:hover > ul{
+    display: block;
+    background-color: aliceblue;
+    padding: 3px;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+}
+.Audio-video{
+    float: left;
+}
+video{
+    margin: 15px;
+}
+table{
+    border-collapse: collapse;
+    margin-left: 50px;
+    width: 50%;
+    
+}
+td, th{
+    border: 1px solid #dddddd;;
+}
+td{
+    padding-left: 9px;
+}
+thead:nth-child(odd) {
+    background-color: #dddddd;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
